@@ -2,6 +2,8 @@ name: svgl_flutter
 description: Flutter widget library for brand SVG logos powered by svgl.app.
 version: 0.0.1
 homepage: https://github.com/gemmomoh/svgl-flutter
+repository: https://github.com/gemmomoh/svgl-flutter
+issue_tracker: https://github.com/gemmomoh/svgl-flutter/issues
 
 environment:
   sdk: ">=3.0.0 <4.0.0"

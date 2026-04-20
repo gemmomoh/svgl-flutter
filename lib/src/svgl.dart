@@ -23,10 +23,25 @@ class Svgl extends StatelessWidget {
 
   /// An SVG string from [SvglLogos], e.g. `SvglLogos.flutter`.
   final String logo;
+
+  /// The width of the logo.
   final double? width;
+
+  /// The height of the logo.
   final double? height;
+
+  /// How to inscribe the logo into the space allocated during layout.
   final BoxFit fit;
+
+  /// A color filter to apply to the logo.
+  ///
+  /// Example:
+  /// ```dart
+  /// colorFilter: ColorFilter.mode(Colors.black, BlendMode.srcIn)
+  /// ```
   final ColorFilter? colorFilter;
+
+  /// A semantic label for the logo, used for accessibility.
   final String? semanticsLabel;
 
   @override

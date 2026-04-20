@@ -116,7 +116,7 @@ void _writeIconsFile(Map<String, String> icons) {
     ..writeln('// GENERATED CODE - DO NOT MODIFY BY HAND')
     ..writeln('// Run `dart run scripts/fetch_svgs.dart` to regenerate.')
     ..writeln()
-    ..writeln('// ignore_for_file: lines_longer_than_80_chars')
+    ..writeln('// ignore_for_file: lines_longer_than_80_chars, constant_identifier_names')
     ..writeln()
     ..writeln('/// SVG string constants for every brand logo in svgl.app.')
     ..writeln('///')
@@ -144,6 +144,7 @@ void _writeUrlsFile(Map<String, String> urls) {
   final buf = StringBuffer()
     ..writeln('// GENERATED CODE - DO NOT MODIFY BY HAND')
     ..writeln('// Run `dart run scripts/fetch_svgs.dart` to regenerate.')
+    ..writeln('// ignore_for_file: lines_longer_than_80_chars, constant_identifier_names')
     ..writeln();
 
   final sorted = urls.entries.toList()..sort((a, b) => a.key.compareTo(b.key));
