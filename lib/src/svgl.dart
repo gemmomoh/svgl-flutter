@@ -11,6 +11,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 /// Svgl(logo: SvglLogos.github)
 /// ```
 class Svgl extends StatelessWidget {
+  /// Creates a [Svgl] widget to render a brand logo.
   const Svgl({
     super.key,
     required this.logo,

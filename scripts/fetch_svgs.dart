@@ -132,6 +132,7 @@ void _writeIconsFile(Map<String, String> icons) {
     final field = entry.key;
     // Escape ''' sequences that would break raw triple-quoted strings.
     final svg = entry.value.replaceAll("'''", r"\'\'\'");
+    buf.writeln('  /// The $field logo SVG.');
     buf.writeln("  static const String $field = r'''$svg''';");
     buf.writeln();
   }
@@ -149,6 +150,7 @@ void _writeUrlsFile(Map<String, String> urls) {
 
   final sorted = urls.entries.toList()..sort((a, b) => a.key.compareTo(b.key));
   for (final e in sorted) {
+    buf.writeln('/// Website URL for ${e.key.replaceFirst('Url', '')}.');
     buf.writeln("const String ${e.key} = '${e.value}';");
   }
 
