@@ -1,0 +1,42 @@
+name: Update Svgl Flutter Components
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Fetch SVGs & generate widgets
+        run: dart run scripts/fetch_svgs.dart
+
+      - name: Generate barrel export
+        run: dart run scripts/generate_exports.dart
+
+      - name: Format code
+        run: dart format lib/src/svgs lib/svgl_flutter.dart lib/src/urls.dart
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: update-svgl
+          branch-suffix: timestamp
+          base: main
+          title: "chore: update svgl components"
+          commit-message: "chore: update svgl components"
+          delete-branch: true
+          token: ${{ secrets.GITHUB_TOKEN }}
