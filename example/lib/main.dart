@@ -49,10 +49,10 @@ class MyHomePage extends StatelessWidget {
                     Text('Flutter'),
                   ],
                 ),
-                SizedBox(width: 40), 
+                SizedBox(width: 40),
                 Column(
                   children: [
-                    Svgl(logo: SvglLogos.github, width: 64),
+                    Svgl(logo: SvglLogos.gitHubDark, width: 64),
                     Text('GitHub'),
                   ],
                 ),

@@ -45,7 +45,7 @@
     },
     {
       "name": "flutter",
-      "rootUri": "file:///Users/Shared/Development/flutter/packages/flutter",
+      "rootUri": "file:///Users/Shared/development/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "3.9"
     },
@@ -63,7 +63,7 @@
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///Users/Shared/Development/flutter/packages/flutter_test",
+      "rootUri": "file:///Users/Shared/development/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "3.9"
     },
@@ -141,7 +141,7 @@
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///Users/Shared/Development/flutter/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///Users/Shared/development/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "3.9"
     },
@@ -238,7 +238,7 @@
   ],
   "generator": "pub",
   "generatorVersion": "3.11.5",
-  "flutterRoot": "file:///Users/Shared/Development/flutter",
+  "flutterRoot": "file:///Users/Shared/development/flutter",
   "flutterVersion": "3.41.7",
   "pubCache": "file:///Users/momoh/.pub-cache"
 }
