@@ -278,7 +278,9 @@ String _toFieldName(String title, String variant) {
   var s = title;
   s = s.replaceAll('+', 'Plus');
   s = s.replaceAll('#', 'Sharp');
-  s = s.replaceAll(RegExp(r'[().]'), '');
+  // Remove content within parentheses, e.g. "Brand (Variant)" -> "Brand"
+  s = s.replaceAll(RegExp(r'\(.*?\)'), '');
+  s = s.replaceAll('.', '');
   // Split on spaces, hyphens, slashes → word boundaries
   final words = s.split(RegExp(r'[\s\-/]+'));
   final camel = words.indexed.map((e) {
@@ -290,6 +292,15 @@ String _toFieldName(String title, String variant) {
 
   // Remove any remaining non-alphanumeric chars.
   var result = camel.replaceAll(RegExp(r'[^a-zA-Z0-9]'), '');
+
+  // Ensure the identifier is valid (cannot start with a digit).
+  if (result.isNotEmpty && RegExp(r'^[0-9]').hasMatch(result)) {
+    if (result.startsWith('1')) {
+      result = 'one${result.substring(1)}';
+    } else {
+      result = 'v$result';
+    }
+  }
 
   // Append variant suffix.
   if (variant == 'light') result += 'Light';
