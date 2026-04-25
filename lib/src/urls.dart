@@ -1032,6 +1032,9 @@ const String nPMUrl = 'https://www.npmjs.com/';
 /// Website URL for nVIDIA.
 const String nVIDIAUrl = 'https://www.nvidia.com';
 
+/// Website URL for nano.
+const String nanoUrl = 'https://nano.org';
+
 /// Website URL for neon.
 const String neonUrl = 'https://neon.tech/';
 
