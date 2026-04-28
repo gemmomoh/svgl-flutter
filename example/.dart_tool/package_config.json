@@ -45,7 +45,7 @@
     },
     {
       "name": "flutter",
-      "rootUri": "file:///opt/hostedtoolcache/flutter/stable-3.41.7-x64/flutter/packages/flutter",
+      "rootUri": "file:///opt/hostedtoolcache/flutter/stable-3.41.8-x64/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "3.9"
     },
@@ -63,7 +63,7 @@
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///opt/hostedtoolcache/flutter/stable-3.41.7-x64/flutter/packages/flutter_test",
+      "rootUri": "file:///opt/hostedtoolcache/flutter/stable-3.41.8-x64/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "3.9"
     },
@@ -141,7 +141,7 @@
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///opt/hostedtoolcache/flutter/stable-3.41.7-x64/flutter/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///opt/hostedtoolcache/flutter/stable-3.41.8-x64/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "3.9"
     },
@@ -244,7 +244,7 @@
   ],
   "generator": "pub",
   "generatorVersion": "3.11.5",
-  "flutterRoot": "file:///opt/hostedtoolcache/flutter/stable-3.41.7-x64/flutter",
-  "flutterVersion": "3.41.7",
+  "flutterRoot": "file:///opt/hostedtoolcache/flutter/stable-3.41.8-x64/flutter",
+  "flutterVersion": "3.41.8",
   "pubCache": "file:///home/runner/.pub-cache"
 }
