@@ -8,6 +8,25 @@ const String aMPUrl = 'https://amp.dev/';
 /// Website URL for abacatePay.
 const String abacatePayUrl = 'https://abacatepay.com';
 
+/// Website URL for acrobatReader.
+const String acrobatReaderUrl = 'https://www.adobe.com/acrobat/pdf-reader.html';
+
+/// Website URL for acrobatScan.
+const String acrobatScanUrl =
+    'https://www.adobe.com/acrobat/mobile/acrobat-scan.html';
+
+/// Website URL for adobeAero.
+const String adobeAeroUrl = 'https://www.adobe.com/products/aero';
+
+/// Website URL for adobeFonts.
+const String adobeFontsUrl = 'https://fonts.adobe.com';
+
+/// Website URL for adobeSign.
+const String adobeSignUrl = 'https://www.adobe.com/sign';
+
+/// Website URL for adobeStock.
+const String adobeStockUrl = 'https://stock.adobe.com';
+
 /// Website URL for adobe.
 const String adobeUrl = 'https://www.adobe.com/';
 
@@ -111,6 +130,9 @@ const String atlassianUrl = 'https://www.atlassian.com/';
 /// Website URL for atom.
 const String atomUrl = 'https://atom.io/';
 
+/// Website URL for audition.
+const String auditionUrl = 'https://www.adobe.com/products/audition';
+
 /// Website URL for auth0.
 const String auth0Url = 'https://auth0.com/';
 
@@ -143,6 +165,9 @@ const String bashUrl = 'https://www.gnu.org/software/bash/';
 
 /// Website URL for beacon.
 const String beaconUrl = 'https://www.beacon.com';
+
+/// Website URL for behance.
+const String behanceUrl = 'https://www.behance.net';
 
 /// Website URL for bento.
 const String bentoUrl = 'https://bento.me/home';
@@ -186,6 +211,9 @@ const String bootstrapUrl = 'https://getbootstrap.com/';
 /// Website URL for braveBrowser.
 const String braveBrowserUrl = 'https://brave.com/';
 
+/// Website URL for bridge.
+const String bridgeUrl = 'https://www.adobe.com/products/bridge';
+
 /// Website URL for buildShip.
 const String buildShipUrl = 'https://buildship.com/';
 
@@ -222,6 +250,16 @@ const String calendlyUrl = 'https://calendly.com/';
 /// Website URL for canva.
 const String canvaUrl = 'https://www.canva.com/';
 
+/// Website URL for captivatePrime.
+const String captivatePrimeUrl =
+    'https://www.adobe.com/learning/learningmanager.html';
+
+/// Website URL for captivate.
+const String captivateUrl = 'https://www.adobe.com/products/captivate';
+
+/// Website URL for capture.
+const String captureUrl = 'https://www.adobe.com/products/capture';
+
 /// Website URL for carrd.
 const String carrdUrl = 'https://carrd.co/';
 
@@ -230,6 +268,10 @@ const String cerebrasUrl = 'https://www.cerebras.ai/';
 
 /// Website URL for chakraUI.
 const String chakraUIUrl = 'https://chakra-ui.com';
+
+/// Website URL for characterAnimator.
+const String characterAnimatorUrl =
+    'https://www.adobe.com/products/character-animator';
 
 /// Website URL for chartjs.
 const String chartjsUrl = 'https://www.chartjs.org/';
@@ -248,6 +290,9 @@ const String claudeAIUrl = 'https://claude.ai/';
 
 /// Website URL for clerk.
 const String clerkUrl = 'https://clerk.com';
+
+/// Website URL for clickUp.
+const String clickUpUrl = 'https://clickup.com/';
 
 /// Website URL for cloudflare.
 const String cloudflareUrl = 'https://www.cloudflare.com/';
@@ -278,6 +323,15 @@ const String cohereUrl = 'https://cohere.com/';
 
 /// Website URL for coinbase.
 const String coinbaseUrl = 'https://www.coinbase.com/';
+
+/// Website URL for coldFusionBuilder.
+const String coldFusionBuilderUrl = 'https://www.adobe.com/products/coldfusion';
+
+/// Website URL for coldFusion.
+const String coldFusionUrl = 'https://www.adobe.com/products/coldfusion';
+
+/// Website URL for connect.
+const String connectUrl = 'https://www.adobe.com/products/adobe-connect';
 
 /// Website URL for convex.
 const String convexUrl = 'https://www.convex.dev/';
@@ -326,6 +380,10 @@ const String developerStudentClubUrl = 'https://gdsc.community.dev/';
 
 /// Website URL for devto.
 const String devtoUrl = 'https://dev.to/';
+
+/// Website URL for digitalEditions.
+const String digitalEditionsUrl =
+    'https://www.adobe.com/solutions/ebook/digital-editions';
 
 /// Website URL for digitalOcean.
 const String digitalOceanUrl = 'https://www.digitalocean.com/';
@@ -438,6 +496,10 @@ const String ethereumUrl = 'https://ethereum.org/';
 /// Website URL for exome.
 const String exomeUrl = 'https://exome.dev/';
 
+/// Website URL for experiencePlatform.
+const String experiencePlatformUrl =
+    'https://business.adobe.com/products/adobe-experience-platform';
+
 /// Website URL for expo.
 const String expoUrl = 'https://expo.dev/';
 
@@ -455,6 +517,9 @@ const String fastifyUrl = 'https://www.fastify.io';
 
 /// Website URL for figma.
 const String figmaUrl = 'https://www.figma.com/';
+
+/// Website URL for fillAndSign.
+const String fillAndSignUrl = 'https://www.adobe.com/acrobat/online/fill-pdf';
 
 /// Website URL for firebaseStudio.
 const String firebaseStudioUrl = 'https://firebase.studio/';
@@ -483,14 +548,27 @@ const String flutterUrl = 'https://flutter.dev/';
 /// Website URL for fly.
 const String flyUrl = 'https://fly.io';
 
+/// Website URL for fontfolio.
+const String fontfolioUrl =
+    'https://www.adobe.com/creativecloud/services-fonts.html';
+
 /// Website URL for formance.
 const String formanceUrl = 'https://www.formance.com/';
 
 /// Website URL for fortran.
 const String fortranUrl = 'https://fortran-lang.org/';
 
+/// Website URL for frameMakerServer.
+const String frameMakerServerUrl = 'https://www.adobe.com/products/framemaker';
+
+/// Website URL for frameMaker.
+const String frameMakerUrl = 'https://www.adobe.com/products/framemaker';
+
 /// Website URL for framer.
 const String framerUrl = 'https://framer.com/';
+
+/// Website URL for fresco.
+const String frescoUrl = 'https://www.adobe.com/products/fresco';
 
 /// Website URL for fresh.
 const String freshUrl = 'https://fresh.deno.dev/';
@@ -616,6 +694,10 @@ const String hCaptchaUrl = 'https://www.hcaptcha.com/';
 /// Website URL for hTML5.
 const String hTML5Url = 'https://es.wikipedia.org/wiki/HTML5';
 
+/// Website URL for hTTPDynamicStreaming.
+const String hTTPDynamicStreamingUrl =
+    'https://www.adobe.com/flash/technology.html';
+
 /// Website URL for hackTheBox.
 const String hackTheBoxUrl = 'https://www.hackthebox.com/';
 
@@ -673,6 +755,12 @@ const String iBMUrl = 'https://www.ibm.com';
 
 /// Website URL for illustrator.
 const String illustratorUrl = 'https://www.adobe.com/products/illustrator';
+
+/// Website URL for inCopy.
+const String inCopyUrl = 'https://www.adobe.com/products/incopy';
+
+/// Website URL for inDesignServer.
+const String inDesignServerUrl = 'https://www.adobe.com/products/indesign';
 
 /// Website URL for inDesign.
 const String inDesignUrl = 'https://www.adobe.com/products/indesign';
@@ -801,6 +889,10 @@ const String leedlimeUrl = 'https://leedlime.com';
 /// Website URL for lemonSqueezy.
 const String lemonSqueezyUrl = 'https://www.lemonsqueezy.com';
 
+/// Website URL for lightroomClassic.
+const String lightroomClassicUrl =
+    'https://www.adobe.com/products/photoshop-lightroom-classic';
+
 /// Website URL for lightroom.
 const String lightroomUrl =
     'https://www.adobe.com/products/photoshop-lightroom';
@@ -876,6 +968,12 @@ const String matrixUrl = 'https://matrix.org/';
 
 /// Website URL for mattermost.
 const String mattermostUrl = 'http://mattermost.com/';
+
+/// Website URL for mediaEncoder.
+const String mediaEncoderUrl = 'https://www.adobe.com/products/media-encoder';
+
+/// Website URL for mediaServer.
+const String mediaServerUrl = 'https://www.adobe.com/products/flashmediaserver';
 
 /// Website URL for mediaWiki.
 const String mediaWikiUrl = 'https://www.mediawiki.org/';
@@ -1032,6 +1130,9 @@ const String nPMUrl = 'https://www.npmjs.com/';
 /// Website URL for nVIDIA.
 const String nVIDIAUrl = 'https://www.nvidia.com';
 
+/// Website URL for nano.
+const String nanoUrl = 'https://nano.org';
+
 /// Website URL for neon.
 const String neonUrl = 'https://neon.tech/';
 
@@ -1167,6 +1268,20 @@ const String perplexityAIUrl = 'https://perplexity.ai/';
 /// Website URL for perspective.
 const String perspectiveUrl = 'https://perspective.co/';
 
+/// Website URL for photopea.
+const String photopeaUrl = 'https://www.photopea.com/';
+
+/// Website URL for photoshopCamera.
+const String photoshopCameraUrl =
+    'https://www.adobe.com/products/photoshop-camera';
+
+/// Website URL for photoshopElements.
+const String photoshopElementsUrl =
+    'https://www.adobe.com/products/photoshop-elements';
+
+/// Website URL for photoshopExpress.
+const String photoshopExpressUrl = 'https://www.adobe.com/express/photoshop';
+
 /// Website URL for photoshop.
 const String photoshopUrl = 'https://www.adobe.com/products/photoshop';
 
@@ -1215,6 +1330,10 @@ const String polygonUrl = 'https://polygon.technology/';
 /// Website URL for poper.
 const String poperUrl = 'https://www.poper.ai';
 
+/// Website URL for portfolio.
+const String portfolioUrl =
+    'https://www.adobe.com/creativecloud/photography/portfolio';
+
 /// Website URL for postCSS.
 const String postCSSUrl = 'https://postcss.org/';
 
@@ -1240,8 +1359,19 @@ const String powerToysUrl =
 /// Website URL for preact.
 const String preactUrl = 'https://preactjs.com/';
 
+/// Website URL for premiereElements.
+const String premiereElementsUrl =
+    'https://www.adobe.com/products/premiere-elements';
+
+/// Website URL for premiereRush.
+const String premiereRushUrl = 'https://www.adobe.com/products/premiere-rush';
+
 /// Website URL for premiere.
 const String premiereUrl = 'https://www.adobe.com/products/premiere';
+
+/// Website URL for presenterVideoExpress.
+const String presenterVideoExpressUrl =
+    'https://www.adobe.com/products/presenter.html';
 
 /// Website URL for prettier.
 const String prettierUrl = 'https://prettier.io/';
@@ -1362,6 +1492,12 @@ const String resendUrl = 'https://resend.com/';
 
 /// Website URL for roblox.
 const String robloxUrl = 'https://www.roblox.com/';
+
+/// Website URL for roboHelpServer.
+const String roboHelpServerUrl = 'https://www.adobe.com/products/robohelp';
+
+/// Website URL for roboHelp.
+const String roboHelpUrl = 'https://www.adobe.com/products/robohelp';
 
 /// Website URL for rolldown.
 const String rolldownUrl = 'https://rolldown.rs/';
@@ -1516,6 +1652,22 @@ const String styledComponentsUrl = 'https://styled-components.com/';
 /// Website URL for sublimeText.
 const String sublimeTextUrl = 'https://www.sublimetext.com/';
 
+/// Website URL for substance3DDesigner.
+const String substance3DDesignerUrl =
+    'https://www.adobe.com/products/substance3d/apps/designer.html';
+
+/// Website URL for substance3DPainter.
+const String substance3DPainterUrl =
+    'https://www.adobe.com/products/substance3d/apps/painter.html';
+
+/// Website URL for substance3DSampler.
+const String substance3DSamplerUrl =
+    'https://www.adobe.com/products/substance3d/apps/sampler.html';
+
+/// Website URL for substance3DStager.
+const String substance3DStagerUrl =
+    'https://www.adobe.com/products/substance3d/apps/stager.html';
+
 /// Website URL for suno.
 const String sunoUrl = 'https://suno.com/';
 
@@ -1558,6 +1710,10 @@ const String tanStackUrl = 'https://tanstack.com/';
 /// Website URL for tauri.
 const String tauriUrl = 'https://tauri.app/';
 
+/// Website URL for technicalCommunicationSuite.
+const String technicalCommunicationSuiteUrl =
+    'https://www.adobe.com/products/technicalcommunicationsuite';
+
 /// Website URL for telegram.
 const String telegramUrl = 'https://web.telegram.org/';
 
@@ -1599,6 +1755,9 @@ const String torUrl = 'https://www.torproject.org/';
 
 /// Website URL for travelPerk.
 const String travelPerkUrl = 'https://www.travelperk.com/';
+
+/// Website URL for trello.
+const String trelloUrl = 'https://trello.com/';
 
 /// Website URL for tron.
 const String tronUrl = 'https://tron.network/';
