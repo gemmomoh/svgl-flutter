@@ -45,9 +45,9 @@
     },
     {
       "name": "flutter",
-      "rootUri": "file:///opt/hostedtoolcache/flutter/stable-3.41.7-x64/flutter/packages/flutter",
+      "rootUri": "file:///opt/hostedtoolcache/flutter/stable-3.44.0-x64/flutter/packages/flutter",
       "packageUri": "lib/",
-      "languageVersion": "3.9"
+      "languageVersion": "3.10"
     },
     {
       "name": "flutter_lints",
@@ -63,9 +63,9 @@
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///opt/hostedtoolcache/flutter/stable-3.41.7-x64/flutter/packages/flutter_test",
+      "rootUri": "file:///opt/hostedtoolcache/flutter/stable-3.44.0-x64/flutter/packages/flutter_test",
       "packageUri": "lib/",
-      "languageVersion": "3.9"
+      "languageVersion": "3.10"
     },
     {
       "name": "http",
@@ -117,7 +117,7 @@
     },
     {
       "name": "meta",
-      "rootUri": "file:///home/runner/.pub-cache/hosted/pub.dev/meta-1.17.0",
+      "rootUri": "file:///home/runner/.pub-cache/hosted/pub.dev/meta-1.18.0",
       "packageUri": "lib/",
       "languageVersion": "3.5"
     },
@@ -141,9 +141,9 @@
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///opt/hostedtoolcache/flutter/stable-3.41.7-x64/flutter/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///opt/hostedtoolcache/flutter/stable-3.44.0-x64/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
-      "languageVersion": "3.9"
+      "languageVersion": "3.10"
     },
     {
       "name": "source_span",
@@ -177,7 +177,7 @@
     },
     {
       "name": "test_api",
-      "rootUri": "file:///home/runner/.pub-cache/hosted/pub.dev/test_api-0.7.10",
+      "rootUri": "file:///home/runner/.pub-cache/hosted/pub.dev/test_api-0.7.11",
       "packageUri": "lib/",
       "languageVersion": "3.7"
     },
@@ -237,8 +237,8 @@
     }
   ],
   "generator": "pub",
-  "generatorVersion": "3.11.5",
-  "flutterRoot": "file:///opt/hostedtoolcache/flutter/stable-3.41.7-x64/flutter",
-  "flutterVersion": "3.41.7",
+  "generatorVersion": "3.12.0",
+  "flutterRoot": "file:///opt/hostedtoolcache/flutter/stable-3.44.0-x64/flutter",
+  "flutterVersion": "3.44.0",
   "pubCache": "file:///home/runner/.pub-cache"
 }
