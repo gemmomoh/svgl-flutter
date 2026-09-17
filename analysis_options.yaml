@@ -3,4 +3,5 @@ include: package:flutter_lints/flutter.yaml
 analyzer:
   # Generated files are handled via ignore_for_file inside the files themselves.
   # This ensures the package score isn't penalized for excluding files from analysis.
-  exclude: []
+  exclude:
+    - build/**
